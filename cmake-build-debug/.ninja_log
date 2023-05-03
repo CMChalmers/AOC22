@@ -1,0 +1,11 @@
+# ninja log v5
+0	23	1683137020187889079	CMakeFiles/AdventOfCode.dir/main.c.o	cacb498b23e9e5de
+0	35	1683140144550532073	build.ninja	d01c6dd776343563
+30	65	1683140086103267356	AdventOfCode	c596a279c621b343
+1	26	1683131695709713768	CMakeFiles/AdventOfCode.dir/day1/day1.c.o	57e560a8498e10f8
+1	20	1683131695703955964	CMakeFiles/AdventOfCode.dir/algorithms/sorting/sorting.c.o	117a93d33ef954b1
+1	30	1683140086067437553	CMakeFiles/AdventOfCode.dir/day2/day2.c.o	da88a3698eb5d2a4
+1	21	1683140399915296321	CMakeFiles/AdventOfCode.dir/day3/day3.c.o	5255b7e49ffdc6aa
+1	25	1683140399918754801	CMakeFiles/AdventOfCode.dir/main.c.o	cacb498b23e9e5de
+1	25	1683140399919390638	CMakeFiles/AdventOfCode.dir/day2/day2.c.o	da88a3698eb5d2a4
+25	56	1683140399950511454	AdventOfCode	aedaebe752e266bd
