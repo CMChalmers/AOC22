@@ -12,7 +12,7 @@ int day2_solve(){
            ['C'] = { ['X'] = 7, ['Y'] = 2, ['Z'] = 6 }
     };
 
-    file = fopen("/Users/charliechalmers/CLionProjects/AdventOfCode/day2/input.txt", "r");
+    file = fopen("/home/arvo/CLionProjects/AOC22/day2/input.txt", "r");
     total_score = 0;
 
     while(fgets(line, sizeof line, file) != NULL) {
@@ -36,7 +36,7 @@ int day2_p2_solve(){
             ['C'] = { ['X'] = 2, ['Y'] = 6, ['Z'] = 7 }
     };
 
-    file = fopen("/Users/charliechalmers/CLionProjects/AdventOfCode/day2/input.txt", "r");
+    file = fopen("/home/arvo/CLionProjects/AOC22/day2/input.txt", "r");
     total_score = 0;
 
     while(fgets(line, sizeof line, file) != NULL) {

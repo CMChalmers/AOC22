@@ -1,4 +1,10 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/charliechalmers/CLionProjects/AdventOfCode -B /Users/charliechalmers/CLionProjects/AdventOfCode/cmake-build-debug
+/var/lib/snapd/snap/clion/235/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/235/bin/ninja/linux/x64/ninja -G Ninja -S /home/arvo/CLionProjects/AOC22 -B /home/arvo/CLionProjects/AOC22/cmake-build-debug
+-- The C compiler identification is GNU 13.0.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/charliechalmers/CLionProjects/AdventOfCode/cmake-build-debug
+-- Build files have been written to: /home/arvo/CLionProjects/AOC22/cmake-build-debug

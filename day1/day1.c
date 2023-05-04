@@ -9,7 +9,7 @@ int day1_solve(){
     int current_total, highest = 0;
 
     // read input data
-    file = fopen("/Users/charliechalmers/CLionProjects/AdventOfCode/day1/input.txt", "r");
+    file = fopen("/home/arvo/CLionProjects/AOC22/day1/input.txt", "r");
 
     while(fgets(s, sizeof s, file) != NULL){
         if(s[0] != '\n'){
@@ -33,7 +33,7 @@ int day1_p2_solve(){
     int elf_calories[1024];
     int current_index, current_total;
 
-    file = fopen("/Users/charliechalmers/CLionProjects/AdventOfCode/day1/input.txt", "r");
+    file = fopen("/home/arvo/CLionProjects/AOC22/day1/input.txt", "r");
     current_total = 0;
     current_index = 0;
 
