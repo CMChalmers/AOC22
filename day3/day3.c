@@ -7,7 +7,7 @@ int day3_solve(){
     FILE *backpacks;
     int priorities[1024];
     char current_line[1024];
-    int priorities_total, i;
+    int priorities_total, line_count;
 
     priorities_total = 0;
     backpacks = fopen("/home/arvo/CLionProjects/AOC22/day3/input.txt", "r");
@@ -32,16 +32,16 @@ int day3_solve(){
         int end_of_first_container_index = ((int)length / 2) - 1;
 
         // iterate each item (character of line)
-        i = 0;
-        while(current_line[i] != '\0' && current_line[i] != '\n'){
-            int item_as_int = priorities[current_line[i] + 0];
+        line_count = 0;
+        while(current_line[line_count] != '\0' && current_line[line_count] != '\n'){
+            int item_as_int = priorities[current_line[line_count] + 0];
 
-            int* container = (i <= end_of_first_container_index) ? left_compartment : right_compartment;
+            int* container = (line_count <= end_of_first_container_index) ? left_compartment : right_compartment;
             if (container[item_as_int] == 0) {
                 container[item_as_int] = 1;
             }
 
-            i++;
+            line_count++;
         }
 
         for(int y = 1; y < 53; y++){
@@ -50,6 +50,15 @@ int day3_solve(){
             }
         }
     }
+
+    return priorities_total;
+}
+
+int day3_p2_solve(){
+    FILE *groups;
+    int priorities[1024];
+    int current_line[1024];
+    int priorities_total;
 
     return priorities_total;
 }
