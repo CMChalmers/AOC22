@@ -58,7 +58,7 @@ int day3_p2_solve(){
     FILE *groups;
     int priorities[1024];
     int current_line[1024];
-    int priorities_total;
+    int priorities_total = 0;
 
     return priorities_total;
 }
